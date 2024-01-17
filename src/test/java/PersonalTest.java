@@ -39,7 +39,6 @@ public class PersonalTest {
     }
     @After
     public void tearDown() {
-//        System.out.println(driver.manage().getCookies());
         if(driver != null){
             driver.quit();
         }
